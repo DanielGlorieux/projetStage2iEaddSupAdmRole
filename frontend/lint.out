@@ -1,0 +1,189 @@
+
+> frontend@0.0.0 lint
+> eslint .
+
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\GradeBadge.tsx
+  201:10  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  201:32  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  201:46  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  201:61  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\badge.tsx
+  46:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\button.tsx
+  60:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\calendar.tsx
+  58:25  error  'props' is defined but never used  @typescript-eslint/no-unused-vars
+  59:26  error  'props' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\calendar1.tsx
+  4:10  error  'ChevronLeft' is defined but never used   @typescript-eslint/no-unused-vars
+  4:23  error  'ChevronRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\form.tsx
+  160:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\navigation-menu.tsx
+  167:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\sidebar.tsx
+  725:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\components\ui\toggle.tsx
+  47:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\hooks\useApi.ts
+  11:17  error    Unexpected any. Specify a different type                                                                                                                                                                                       @typescript-eslint/no-explicit-any
+  39:16  error    'error' is defined but never used                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  55:6   warning  React Hook useEffect was passed a dependency list that is not an array literal. This means we can't statically verify whether you've passed the correct dependencies                                                           react-hooks/exhaustive-deps
+  55:6   warning  React Hook useEffect has a missing dependency: 'apiCall'. Either include it or remove the dependency array. If 'apiCall' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\ActivitySubmission.tsx
+  2394:3   error  'CardDescription' is defined but never used           @typescript-eslint/no-unused-vars
+  2425:3   error  'DialogTrigger' is defined but never used             @typescript-eslint/no-unused-vars
+  2433:10  error  'Separator' is defined but never used                 @typescript-eslint/no-unused-vars
+  2434:10  error  'Checkbox' is defined but never used                  @typescript-eslint/no-unused-vars
+  2442:3   error  'Briefcase' is defined but never used                 @typescript-eslint/no-unused-vars
+  2443:3   error  'Lightbulb' is defined but never used                 @typescript-eslint/no-unused-vars
+  2446:3   error  'Trash2' is defined but never used                    @typescript-eslint/no-unused-vars
+  2449:3   error  'Clock' is defined but never used                     @typescript-eslint/no-unused-vars
+  2455:3   error  'Filter' is defined but never used                    @typescript-eslint/no-unused-vars
+  2456:3   error  'Search' is defined but never used                    @typescript-eslint/no-unused-vars
+  2457:3   error  'Award' is defined but never used                     @typescript-eslint/no-unused-vars
+  2458:3   error  'TrendingUp' is defined but never used                @typescript-eslint/no-unused-vars
+  2461:3   error  'Building' is defined but never used                  @typescript-eslint/no-unused-vars
+  2462:3   error  'Star' is defined but never used                      @typescript-eslint/no-unused-vars
+  2463:3   error  'MessageSquare' is defined but never used             @typescript-eslint/no-unused-vars
+  2464:3   error  'Send' is defined but never used                      @typescript-eslint/no-unused-vars
+  2467:18  error  'isAfter' is defined but never used                   @typescript-eslint/no-unused-vars
+  2467:27  error  'isBefore' is defined but never used                  @typescript-eslint/no-unused-vars
+  2467:37  error  'differenceInDays' is defined but never used          @typescript-eslint/no-unused-vars
+  2485:24  error  'setIsDialogOpen' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  2836:27  error  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  3287:48  error  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  3318:48  error  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  3777:48  error  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\ActivityValidation.tsx
+    7:3   error    'CardDescription' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+   36:3   error    'XCircle' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   43:3   error    'Briefcase' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   44:3   error    'Lightbulb' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   45:3   error    'Monitor' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   47:3   error    'MessageSquare' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+   49:3   error    'Filter' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+   92:38  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   98:6   warning  React Hook useEffect has a missing dependency: 'loadActivities'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  105:22  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Chat.tsx
+  88:6  warning  React Hook useEffect has a missing dependency: 'currentUserId'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Dashboard.tsx
+  1680:20  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  1684:10  error    'userService' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  1689:3   error    'CardDescription' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  1701:3   error    'Calendar' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  1705:3   error    'Upload' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+  1707:3   error    'CheckCircle' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  1708:3   error    'Star' is defined but never used                                                                                      @typescript-eslint/no-unused-vars
+  1763:6   warning  React Hook useEffect has a missing dependency: 'loadDashboardData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  1800:32  error    Do not access Object.prototype method 'hasOwnProperty' from target object                                             no-prototype-builtins
+  2178:47  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\LoginPage.tsx
+  436:3   error  'Users' is defined but never used                   @typescript-eslint/no-unused-vars
+  441:10  error  'Support' is defined but never used                 @typescript-eslint/no-unused-vars
+  442:10  error  'UserGuide' is defined but never used               @typescript-eslint/no-unused-vars
+  443:10  error  'ContactLED' is defined but never used              @typescript-eslint/no-unused-vars
+  467:10  error  'backendStatus' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  533:14  error  'error' is defined but never used                   @typescript-eslint/no-unused-vars
+  545:9   error  'getRoleIcon' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Progress.tsx
+  10:10  error  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  26:3   error  'Filter' is defined but never used  @typescript-eslint/no-unused-vars
+  27:3   error  'Plus' is defined but never used    @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Reports.tsx
+  504:10  error  'Input' is defined but never used     @typescript-eslint/no-unused-vars
+  530:3   error  'Calendar' is defined but never used  @typescript-eslint/no-unused-vars
+  535:3   error  'Filter' is defined but never used    @typescript-eslint/no-unused-vars
+  537:3   error  'Eye' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\ScholarManagement.tsx
+  515:3  error    'CardDescription' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+  542:3  error    'Search' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  544:3  error    'Download' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  550:3  error    'GraduationCap' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+  551:3  error    'TrendingUp' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  552:3  error    'FileText' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  596:6  warning  React Hook useEffect has a missing dependency: 'loadScholars'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Settings.tsx
+  11:10  error  'Input' is defined but never used         @typescript-eslint/no-unused-vars
+  29:15  error  'SettingsIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  34:3   error  'Mail' is defined but never used          @typescript-eslint/no-unused-vars
+  35:3   error  'Clock' is defined but never used         @typescript-eslint/no-unused-vars
+  44:28  error  'userRole' is defined but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Sidebar.tsx
+  909:3  error  'Calendar' is defined but never used     @typescript-eslint/no-unused-vars
+  910:3  error  'Award' is defined but never used        @typescript-eslint/no-unused-vars
+  911:3  error  'Lightbulb' is defined but never used    @typescript-eslint/no-unused-vars
+  913:3  error  'BookOpen' is defined but never used     @typescript-eslint/no-unused-vars
+  916:3  error  'Star' is defined but never used         @typescript-eslint/no-unused-vars
+  920:3  error  'Menu' is defined but never used         @typescript-eslint/no-unused-vars
+  924:3  error  'ShieldCheck' is defined but never used  @typescript-eslint/no-unused-vars
+  944:3  error  'userRole' is defined but never used     @typescript-eslint/no-unused-vars
+  945:3  error  'currentPage' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\SupervisorActivities.tsx
+   22:10  error  'Calendar' is defined but never used      @typescript-eslint/no-unused-vars
+  159:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\Support.tsx
+  36:3  error  'AlertTriangle' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\pages\UserGuide.tsx
+  13:3   error  'Tabs' is defined but never used                  @typescript-eslint/no-unused-vars
+  14:3   error  'TabsContent' is defined but never used           @typescript-eslint/no-unused-vars
+  15:3   error  'TabsList' is defined but never used              @typescript-eslint/no-unused-vars
+  16:3   error  'TabsTrigger' is defined but never used           @typescript-eslint/no-unused-vars
+  25:3   error  'ChevronRight' is defined but never used          @typescript-eslint/no-unused-vars
+  28:3   error  'Star' is defined but never used                  @typescript-eslint/no-unused-vars
+  36:3   error  'Monitor' is defined but never used               @typescript-eslint/no-unused-vars
+  48:10  error  'activeGuide' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\search\SearchResultsTable.tsx
+   21:3   error  'TrendingUp' is defined but never used                                                                                                                                                            @typescript-eslint/no-unused-vars
+  127:41  error  React Hook "React.useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  128:53  error  React Hook "React.useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  134:9   error  'isIndeterminate' is assigned a value but never used                                                                                                                                              @typescript-eslint/no-unused-vars
+  144:13  error  Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free                                                                               @typescript-eslint/ban-ts-comment
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\search\StudentDetailsModal.tsx
+  26:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\services\api.ts
+  117:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  173:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  190:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\services\searchService.ts
+  157:10  error  'apiClient' is defined but never used  @typescript-eslint/no-unused-vars
+  258:14  error  'error' is defined but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\services\supervisorActivityService.ts
+  30:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\danie\Desktop\projetStage2iE1-claude-add-super-admin-role-and-features\frontend\src\services\users.ts
+  142:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  167:12  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  169:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Ô£û 124 problems (108 errors, 16 warnings)
+
