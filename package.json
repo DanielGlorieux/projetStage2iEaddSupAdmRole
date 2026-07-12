@@ -6,7 +6,10 @@
   "scripts": {
     "fullstack": "concurrently \"npm run backend\" \"npm run frontend\"",
     "backend": "nodemon backend/server.js",
-    "frontend": "cd frontend && npm run dev"
+    "frontend": "cd frontend && npm run dev",
+    "e2e:test": "node ./node_modules/@playwright/test/cli.js test",
+    "e2e:headed": "node ./node_modules/@playwright/test/cli.js test --headed",
+    "e2e:debug": "node ./node_modules/@playwright/test/cli.js test --debug"
   },
   "keywords": [],
   "author": "",
@@ -41,6 +44,7 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "@types/node": "^24.3.0"
   }
 }

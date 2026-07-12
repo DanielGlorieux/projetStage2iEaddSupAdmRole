@@ -17,6 +17,15 @@ const { authenticate } = require("./middleware/auth");
 const { initChatWebSocket } = require("./utils/chatSocket");
 
 const app = express();
+const frontendUrl = (process.env.FRONTEND_URL || "http://localhost:3001").replace(
+  /\/$/,
+  ""
+);
+const allowedOrigins = frontendUrl.includes("localhost")
+  ? [frontendUrl, frontendUrl.replace("localhost", "127.0.0.1")]
+  : frontendUrl.includes("127.0.0.1")
+  ? [frontendUrl, frontendUrl.replace("127.0.0.1", "localhost")]
+  : [frontendUrl];
 
 // Middleware de sécurité
 app.use(helmet());
@@ -26,7 +35,13 @@ app.use(morgan("combined"));
 // Configuration CORS
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error(`CORS non autorisé pour l'origine: ${origin}`));
+    },
     credentials: true,
   })
 );
